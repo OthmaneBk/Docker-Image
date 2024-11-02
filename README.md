@@ -24,15 +24,15 @@ In this lab, we are gonne use a VM to create an image into an container to run a
 
      sudo docker exec -it web-server /bin/bash
 
-**Open an interactive terminal inside the container named 'web-server'.**
+**Open an index.html file.**
 
      1- cd var/www/html/
      2- nano index.html
 
 **Write a code into an index.html**
 
-     1- Write your code here
-     2- ctrl + x to To save (y)
+     1- Write your code here...
+     2- ctrl + x, to save (y)
 
 **Demonstration**
 
