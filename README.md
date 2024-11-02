@@ -16,17 +16,13 @@ In this lab, we are gonne use a VM to create an image into an container to run a
 
      sudo docker run --name web-server -p 9090:80 -d ubuntu/nginx
 
-**Create and run an Nginx container based on Ubuntu with the container name 'web-server' on port 9090.**
+**Start a Docker container**
 
-     sudo docker run --name web-server -p 9090:80 -d ubuntu/nginx
+     sudo docker start web-server
 
 **Open an interactive terminal inside the container named 'web-server'.**
 
      sudo docker exec -it web-server /bin/bash
-
-**Start a Docker container**
-
-     sudo docker start web-server
 
 **Open an interactive terminal inside the container named 'web-server'.**
 
